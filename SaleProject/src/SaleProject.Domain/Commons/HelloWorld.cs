@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SaleProject.Domain.Commons
 {
-    internal class Class1
+    internal class HelloWorld
     {
     }
 }

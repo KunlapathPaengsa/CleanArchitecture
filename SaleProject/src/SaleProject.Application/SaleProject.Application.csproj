@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Folder Include="Contracts\Checkings\Commands\" />
+    <Folder Include="Contracts\CheckSums\" />
     <Folder Include="Interfaces\" />
   </ItemGroup>
 
