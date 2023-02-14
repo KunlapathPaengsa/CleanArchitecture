@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MediatR;
-using SaleProject.Application.Contracts.Queries;
+using SaleProject.Application.Contracts.Checkings.Queries;
 
 namespace SaleProject.WebAPI.Controllers
 {
@@ -15,7 +15,7 @@ namespace SaleProject.WebAPI.Controllers
             _mediator = mediator;
         }
 
-        [HttpGet]
+        [HttpGet("checking")]
         public async Task<CheckingQueryResponse> Get()
         {
             return await _mediator.Send(new CheckingQueryRequest());

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SaleProject.Application.Contracts.Queries
+namespace SaleProject.Application.Contracts.Checkings.Queries
 {
     public class CheckingQueryRequest : IRequest<CheckingQueryResponse>
     {

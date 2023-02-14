@@ -1,3 +1,4 @@
+using Microsoft.Extensions.Configuration;
 using SaleProject.Application;
 using SaleProject.Infrastructure;
 
@@ -10,11 +11,10 @@ builder.Services.AddSwaggerGen();
 
 //Add MediatR
 builder.Services.AddApplication();
-builder.Services.AddInfrastructure();
+builder.Services.AddInfrastructure(builder.Configuration);
 
 
 var app = builder.Build();
-
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -24,9 +24,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();

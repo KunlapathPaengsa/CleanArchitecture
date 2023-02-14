@@ -1,4 +1,4 @@
-﻿namespace SaleProject.Application.Contracts.Queries
+﻿namespace SaleProject.Application.Contracts.Checkings.Queries
 {
     public class CheckingQueryResponse
     {

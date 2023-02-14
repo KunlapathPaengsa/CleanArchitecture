@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace SaleProject.Application.Contracts.Queries
+namespace SaleProject.Application.Contracts.Checkings.Queries
 {
     public class CheckingQueryHandler : IRequestHandler<CheckingQueryRequest, CheckingQueryResponse>
     {

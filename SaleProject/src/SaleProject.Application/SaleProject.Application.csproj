@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Contracts\Commands\" />
+    <Folder Include="Contracts\Checkings\Commands\" />
     <Folder Include="Interfaces\" />
   </ItemGroup>
 

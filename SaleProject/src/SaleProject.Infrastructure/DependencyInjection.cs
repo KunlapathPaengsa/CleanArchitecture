@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -11,9 +12,10 @@ namespace SaleProject.Infrastructure
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection AddInfrastructure(this IServiceCollection services)//, IConfiguration Configuration)
+        public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)//, IConfiguration Configuration)
         {
             //services.AddTransient<IRequestHandler<CheckingQueryRequest, CheckingQueryResponse>, CheckingQueryHandler>();
+            var connectionString = configuration.GetConnectionString("DefaultConnection");
 
             //Add MediatR
             //services.AddMediatR(Assembly.GetExecutingAssembly());
