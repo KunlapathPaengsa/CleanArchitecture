@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaleProject.Application", "SaleProject\src\SaleProject.Application\SaleProject.Application.csproj", "{84AF0412-E3F2-44BA-9938-018BA3623BA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaleProject.Application", "SaleProject\src\SaleProject.Application\SaleProject.Application.csproj", "{84AF0412-E3F2-44BA-9938-018BA3623BA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaleProject.Infrastructure", "SaleProject\src\SaleProject.Infrastructure\SaleProject.Infrastructure.csproj", "{93772E8F-20B7-4B9C-9444-6D51C6D73118}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaleProject.Infrastructure", "SaleProject\src\SaleProject.Infrastructure\SaleProject.Infrastructure.csproj", "{93772E8F-20B7-4B9C-9444-6D51C6D73118}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaleProject.Domain", "SaleProject\src\SaleProject.Domain\SaleProject.Domain.csproj", "{E8DB6AB9-8A56-4805-BE0D-F3916E2AAA25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaleProject.Domain", "SaleProject\src\SaleProject.Domain\SaleProject.Domain.csproj", "{E8DB6AB9-8A56-4805-BE0D-F3916E2AAA25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaleProject.WebAPI", "SaleProject\src\SaleProject.WebAPI\SaleProject.WebAPI.csproj", "{76CE819D-567E-4E1C-AC8B-DA552EF0A955}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaleProject.WebAPI", "SaleProject\src\SaleProject.WebAPI\SaleProject.WebAPI.csproj", "{76CE819D-567E-4E1C-AC8B-DA552EF0A955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaleProject.UnitTest", "SaleProject.UnitTest\SaleProject.UnitTest.csproj", "{F0B05A73-8AFF-4D5F-B680-1946147321E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{76CE819D-567E-4E1C-AC8B-DA552EF0A955}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76CE819D-567E-4E1C-AC8B-DA552EF0A955}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76CE819D-567E-4E1C-AC8B-DA552EF0A955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0B05A73-8AFF-4D5F-B680-1946147321E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B05A73-8AFF-4D5F-B680-1946147321E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B05A73-8AFF-4D5F-B680-1946147321E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B05A73-8AFF-4D5F-B680-1946147321E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

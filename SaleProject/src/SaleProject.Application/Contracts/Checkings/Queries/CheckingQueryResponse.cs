@@ -2,6 +2,6 @@
 {
     public class CheckingQueryResponse
     {
-        public int result { get; set; } = 200;
+        public int? result { get; set; }// = 200;
     }
 }

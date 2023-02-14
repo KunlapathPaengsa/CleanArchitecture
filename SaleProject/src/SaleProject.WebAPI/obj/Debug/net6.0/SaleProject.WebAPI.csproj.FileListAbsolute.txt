@@ -42,3 +42,10 @@ C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.WebAPI\bin
 C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.WebAPI\bin\Debug\net6.0\SaleProject.Infrastructure.dll
 C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.WebAPI\bin\Debug\net6.0\SaleProject.Infrastructure.pdb
+C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
