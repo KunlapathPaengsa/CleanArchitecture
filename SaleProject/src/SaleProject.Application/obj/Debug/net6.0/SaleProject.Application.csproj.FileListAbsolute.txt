@@ -1,0 +1,12 @@
+C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.Application\bin\Debug\net6.0\SaleProject.Application.deps.json
+C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.Application\bin\Debug\net6.0\SaleProject.Application.dll
+C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.Application\bin\Debug\net6.0\SaleProject.Application.pdb
+C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.Application\obj\Debug\net6.0\SaleProject.Application.csproj.AssemblyReference.cache
+C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.Application\obj\Debug\net6.0\SaleProject.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.Application\obj\Debug\net6.0\SaleProject.Application.AssemblyInfoInputs.cache
+C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.Application\obj\Debug\net6.0\SaleProject.Application.AssemblyInfo.cs
+C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.Application\obj\Debug\net6.0\SaleProject.Application.csproj.CoreCompileInputs.cache
+C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.Application\obj\Debug\net6.0\SaleProject.Application.dll
+C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.Application\obj\Debug\net6.0\refint\SaleProject.Application.dll
+C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.Application\obj\Debug\net6.0\SaleProject.Application.pdb
+C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.Application\obj\Debug\net6.0\ref\SaleProject.Application.dll
