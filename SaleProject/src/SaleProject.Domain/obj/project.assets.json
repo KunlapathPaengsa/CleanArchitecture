@@ -377,11 +377,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kunla\\Documents\\Code\\SaleProject\\SaleProject\\src\\SaleProject.Domain\\SaleProject.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\kunla\\Source\\Repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Domain\\SaleProject.Domain.csproj",
       "projectName": "SaleProject.Domain",
-      "projectPath": "C:\\Users\\kunla\\Documents\\Code\\SaleProject\\SaleProject\\src\\SaleProject.Domain\\SaleProject.Domain.csproj",
+      "projectPath": "C:\\Users\\kunla\\Source\\Repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Domain\\SaleProject.Domain.csproj",
       "packagesPath": "C:\\Users\\kunla\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kunla\\Documents\\Code\\SaleProject\\SaleProject\\src\\SaleProject.Domain\\obj\\",
+      "outputPath": "C:\\Users\\kunla\\Source\\Repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kunla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -439,7 +439,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

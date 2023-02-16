@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8k6Nk2KCNe7XuXpeWrvZtrpQyGq+6h0AOHoikFryrY34VQ2xGCKE7ey2yZ8ZJWdq+NmkT7AA9jil3QacWAr7Cg==",
+  "dgSpecHash": "CvscEOCzofSK0aJBWqeSoS1lf1CvsrVuIk7auEWuYNhzDyPnV5z7C2P9X27OwklY5JMql8yvvyZ0IMAHzQsAeQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kunla\\Documents\\Code\\SaleProject\\SaleProject\\src\\SaleProject.WebAPI\\SaleProject.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\kunla\\Source\\Repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.WebAPI\\SaleProject.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kunla\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\kunla\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

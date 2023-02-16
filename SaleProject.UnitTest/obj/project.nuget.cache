@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n1AOrgZDIoHuAEjzsGjJM7JJT9NluwpmxSuS6+qBCNQVPqHHd9/Sy9SdfKlsEUaii8f+WgSaRCxVr+Z1z5sRqA==",
+  "dgSpecHash": "OZZBuUci5j8kczS0O3JphsATxuNrVzX0SthBnTV2aaJbf+cfqUgoOWadGIgijwvTnuhWjRzzTnhEexyRUDtFsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kunla\\Documents\\Code\\SaleProject\\SaleProject.UnitTest\\SaleProject.UnitTest.csproj",
+  "projectFilePath": "C:\\Users\\kunla\\Source\\Repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject.UnitTest\\SaleProject.UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kunla\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\kunla\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
