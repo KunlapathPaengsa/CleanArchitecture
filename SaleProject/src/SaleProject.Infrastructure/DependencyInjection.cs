@@ -17,7 +17,7 @@ namespace SaleProject.Infrastructure
             //Add DbContext
             //services.AddMvc();
             //services.AddScoped<IDbContext, LocalDbContext>();
-            services.AddScoped<IDbContext>(provider => (IDbContext)provider.GetService<LocalDbContext>());
+            services.AddScoped<IDbContext>(provider => provider.GetService<LocalDbContext>());
             services.AddScoped(typeof(IQueryRepository<>), typeof(QueryRepository<>));
 
 
