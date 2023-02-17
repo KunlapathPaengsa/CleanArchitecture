@@ -10,6 +10,6 @@ namespace SaleProject.WebAPI.Controllers
         public async Task<string> Check() => await Mediator.Send(new TakeAPartQueryRequest());
 
         [HttpGet("array")]
-        public async Task<string[]> Hello([FromQuery] TakeArrayPartQueryRequest request) => await Mediator.Send(request);
+        public async Task<string[]> GetCarEnum([FromQuery] TakeArrayPartQueryRequest request) => await Mediator.Send(request);
     }
 }
