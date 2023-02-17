@@ -1,10 +1,5 @@
 ﻿using MediatR;
 using SaleProject.Infrastructure.Contexts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SaleProject.Application.Contracts.Students
 {
@@ -18,6 +13,5 @@ namespace SaleProject.Application.Contracts.Students
 
     public class GetAllStudentQueryRequest :  IRequest<List<Student>>
     {
-        //public string Temp { get; set; }
     }
 }
