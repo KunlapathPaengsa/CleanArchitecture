@@ -13,8 +13,7 @@ namespace SaleProject.Infrastructure
             var connectionString = configuration.GetConnectionString("LocalDBConnection");
             services.AddDbContext<LocalDbContext>(option => option.UseSqlServer(connectionString));
 
-            //Add MediatR
-            //services.AddMediatR(Assembly.GetExecutingAssembly());
+            //Add DbContext
             return services;
         }
     }
