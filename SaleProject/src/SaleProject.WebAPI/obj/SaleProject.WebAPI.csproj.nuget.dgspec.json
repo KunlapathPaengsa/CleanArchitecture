@@ -182,6 +182,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Application\\SaleProject.Application.csproj": {
+                "projectPath": "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Application\\SaleProject.Application.csproj"
+              },
               "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Domain\\SaleProject.Domain.csproj": {
                 "projectPath": "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Domain\\SaleProject.Domain.csproj"
               }

@@ -6,9 +6,9 @@ namespace SaleProject.Application.Contracts.Students
 {
     public class GetAllStudentQueryHandler : IRequestHandler<GetAllStudentQueryRequest, List<Student>>
     {
-        private readonly IStudentQueryRepository _repository;
+        private readonly IQueryRepository<Student> _repository;
 
-        public GetAllStudentQueryHandler(IStudentQueryRepository repository)
+        public GetAllStudentQueryHandler(IQueryRepository<Student> repository)
         {
             _repository = repository;
         }

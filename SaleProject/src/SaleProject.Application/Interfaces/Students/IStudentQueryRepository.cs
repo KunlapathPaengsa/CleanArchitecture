@@ -29,10 +29,10 @@ namespace SaleProject.Application.Interfaces.Students
         private readonly DbSet<T> _dbSet;
         private readonly IDbContext _dbContext;
 
-        public QueryRepository()//IDbContext dbContext)
+        public QueryRepository(IDbContext dbContext)
         {
-            _dbSet = _dbContext.Set<T>();
-            //_dbContext = dbContext;
+            _dbSet = dbContext.Set<T>();
+            _dbContext = dbContext;
         }
 
         public T First()
@@ -63,5 +63,8 @@ namespace SaleProject.Application.Interfaces.Students
 
     public class StudentQueryRepository : QueryRepository<Student>, IStudentQueryRepository
     {
+        public StudentQueryRepository(IDbContext dbContext) : base(dbContext)
+        {
+        }
     }
 }
