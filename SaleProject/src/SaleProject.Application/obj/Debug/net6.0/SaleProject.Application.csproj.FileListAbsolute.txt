@@ -22,3 +22,6 @@ C:\Users\kunla\Source\Repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\S
 C:\Users\kunla\Source\Repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.Application\obj\Debug\net6.0\refint\SaleProject.Application.dll
 C:\Users\kunla\Source\Repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.Application\obj\Debug\net6.0\SaleProject.Application.pdb
 C:\Users\kunla\Source\Repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.Application\obj\Debug\net6.0\ref\SaleProject.Application.dll
+C:\Users\kunla\source\repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.Application\bin\Debug\net6.0\SaleProject.Domain.dll
+C:\Users\kunla\source\repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.Application\bin\Debug\net6.0\SaleProject.Domain.pdb
+C:\Users\kunla\source\repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.Application\obj\Debug\net6.0\SaleProject.Application.csproj.CopyComplete

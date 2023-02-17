@@ -286,6 +286,21 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "SaleProject.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "Microsoft.Extensions.Configuration": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SaleProject.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SaleProject.Domain.dll": {}
+        }
       }
     }
   },
@@ -768,6 +783,11 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "SaleProject.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SaleProject.Domain/SaleProject.Domain.csproj",
+      "msbuildProject": "../SaleProject.Domain/SaleProject.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -776,6 +796,7 @@
       "Microsoft.AspNet.Mvc >= 5.2.9",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
+      "SaleProject.Domain >= 1.0.0",
       "SimpleInjector >= 5.4.1"
     ]
   },
@@ -805,7 +826,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Domain\\SaleProject.Domain.csproj": {
+              "projectPath": "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Domain\\SaleProject.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

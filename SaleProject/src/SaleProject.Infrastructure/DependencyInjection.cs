@@ -1,12 +1,7 @@
-﻿using MediatR;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
+using SaleProject.Infrastructure.Contexts;
+using Microsoft.EntityFrameworkCore;
 
 namespace SaleProject.Infrastructure
 {
@@ -15,7 +10,8 @@ namespace SaleProject.Infrastructure
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)//, IConfiguration Configuration)
         {
             //services.AddTransient<IRequestHandler<CheckingQueryRequest, CheckingQueryResponse>, CheckingQueryHandler>();
-            var connectionString = configuration.GetConnectionString("DefaultConnection");
+            var connectionString = configuration.GetConnectionString("LocalDBConnection");
+            services.AddDbContext<LocalDbContext>(option => option.UseSqlServer(connectionString));
 
             //Add MediatR
             //services.AddMediatR(Assembly.GetExecutingAssembly());

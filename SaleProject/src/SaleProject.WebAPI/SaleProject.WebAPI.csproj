@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SaleProject.Application\SaleProject.Application.csproj" />
+    <ProjectReference Include="..\SaleProject.Domain\SaleProject.Domain.csproj" />
     <ProjectReference Include="..\SaleProject.Infrastructure\SaleProject.Infrastructure.csproj" />
   </ItemGroup>
 
