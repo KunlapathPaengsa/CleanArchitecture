@@ -5,7 +5,6 @@ using SaleProject.Application.Contracts.TakeAParts.Queries;
 
 namespace SaleProject.WebAPI.Controllers
 {
-    //[ApiController, Route("[controller]")]
     public class TestExeController : APIControllerBase
     {
         [HttpGet("checking")]
@@ -13,8 +12,8 @@ namespace SaleProject.WebAPI.Controllers
 
         [HttpGet("excute")]
         public async Task<SeibelResultModel> Excute() => await Mediator.Send(new ExcuteQueryRequest());
+  
         [HttpGet("middle")]
-        public async Task<MiddleQueryResponse> Middle() => await Mediator.Send(new MiddleQueryRequest());
+        public async Task<MiddleQueryResponse> Middle(MiddleQueryRequest request) => await Mediator.Send(request);
     }
-
 }

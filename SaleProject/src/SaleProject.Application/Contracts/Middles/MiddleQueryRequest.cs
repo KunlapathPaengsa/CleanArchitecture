@@ -29,8 +29,19 @@ namespace SaleProject.Application.Contracts.Middles
         private MiddleQueryResponse CallProvider(MiddleQueryRequest request)
         {
             Type type = Type.GetType(request.ClassName);
+            object obj = Activator.CreateInstance(type);
+
             return new MiddleQueryResponse();
         }
     }
 
+    public class MiddleQueryRequest<TResult> : IRequest<MiddleQueryResponse<TResult>>
+    {
+        public string ClassName { get; set; }
+    }
+}
+
+public class MiddleQueryResponse<TResult>
+{
+    public string Response { get; set; }
 }

@@ -6,12 +6,14 @@ namespace SaleProject.Application.Contracts.TakeAParts.Arrays
     {
         public Task<string[]> Handle(TakeArrayPartQueryRequest request, CancellationToken cancellationToken)
         {
-            var result = new string[] { };
-            if (request.IsValue)
-            {
-                result = Enum.GetNames(typeof(VehicleData));
-            }
-            else
+            return GetVehicleData(request.IsValue);
+            
+        }
+
+        private Task<string[]> GetVehicleData(bool isValue)
+        {
+            var result = Enum.GetNames(typeof(VehicleData));
+            if (!isValue)
             {
                 result = Enum.GetValues(typeof(VehicleData)).Cast<int>().Select(value => value.ToString()).ToArray();
             }
