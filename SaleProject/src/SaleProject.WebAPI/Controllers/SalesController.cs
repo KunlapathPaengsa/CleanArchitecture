@@ -4,7 +4,7 @@ using SaleProject.Application.Contracts.Greetings.Queries;
 
 namespace SaleProject.WebAPI.Controllers
 {
-    [ApiController, Route("[controller]")]
+    //[ApiController, Route("[controller]")]
     public class SalesController : APIControllerBase
     {
         [HttpGet("checking")]

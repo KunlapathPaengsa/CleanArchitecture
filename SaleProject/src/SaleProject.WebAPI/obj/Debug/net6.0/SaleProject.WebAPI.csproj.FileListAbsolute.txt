@@ -101,3 +101,10 @@ C:\Users\kunla\Source\Repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\S
 C:\Users\kunla\Source\Repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.WebAPI\obj\Debug\net6.0\SaleProject.WebAPI.genruntimeconfig.cache
 C:\Users\kunla\Source\Repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.WebAPI\obj\Debug\net6.0\ref\SaleProject.WebAPI.dll
 C:\Users\kunla\source\repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.WebAPI\bin\Debug\net6.0\SimpleInjector.dll
+C:\Users\kunla\source\repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.WebAPI\bin\Debug\net6.0\System.Web.Mvc.dll
+C:\Users\kunla\source\repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.WebAPI\bin\Debug\net6.0\System.Web.Razor.dll
+C:\Users\kunla\source\repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.WebAPI\bin\Debug\net6.0\System.Web.Helpers.dll
+C:\Users\kunla\source\repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.WebAPI\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+C:\Users\kunla\source\repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.WebAPI\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+C:\Users\kunla\source\repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.WebAPI\bin\Debug\net6.0\System.Web.WebPages.dll
+C:\Users\kunla\source\repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.WebAPI\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll

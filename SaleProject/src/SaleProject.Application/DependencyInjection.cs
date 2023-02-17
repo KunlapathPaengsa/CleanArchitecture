@@ -20,7 +20,8 @@ namespace SaleProject.Application
             //Add Services
             //services.AddScoped<IGreetingQueryService, GreetingQueryService>();
             //services.AddScoped<IGreetingQueryService, GreetingQueryService>();
-            services.AddScoped<IQueryProcessor, DynamicQueryProcessor>(); //AddSingleton
+            //services.AddSingleton<Container>();
+            services.AddSingleton<IQueryProcessor, DynamicQueryProcessor>();
             return services;
         }
     }

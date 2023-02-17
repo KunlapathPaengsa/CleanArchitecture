@@ -3,6 +3,7 @@ using MediatR;
 
 namespace SaleProject.WebAPI.Controllers
 {
+    [ApiController, Route("[controller]")]
     public class APIControllerBase : ControllerBase
     {
         //private readonly IMediator _mediator;
