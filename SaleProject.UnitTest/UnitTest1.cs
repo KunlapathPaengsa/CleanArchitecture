@@ -7,15 +7,15 @@ namespace SaleProject.UnitTest
 {
     public class UnitTest1
     {
-        [Fact]
-        public async Task Add_GetCitiesApi_Async()
-        {
-            using (HttpClient client = new HttpClient())
-            {
-                StringContent content = new StringContent(JsonSerializer.Serialize(cities_Test), Encoding.UTF8, MediaTypeNames.Application.Json);
-                var response = await client.PostAsync("http://localhost:1234/api/test", content);
-            }
-        }
+        //[Fact]
+        //public async Task Add_GetCitiesApi_Async()
+        //{
+        //    using (HttpClient client = new HttpClient())
+        //    {
+        //        StringContent content = new StringContent(JsonSerializer.Serialize(cities_Test), Encoding.UTF8, MediaTypeNames.Application.Json);
+        //        var response = await client.PostAsync("http://localhost:1234/api/test", content);
+        //    }
+        //}
 
         [Fact]
         public void TestIsPrime()

@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SaleProject.Application
-build_property.ProjectDir = C:\Users\kunla\Source\Repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.Application\
+build_property.ProjectDir = C:\Users\kunla\source\repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.Application\

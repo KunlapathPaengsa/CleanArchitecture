@@ -1,6 +1,17 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SaleProject",
+    "\\SaleProject\\src",
+    "\\SaleProject\\src\\SaleProject.Application",
+    "\\SaleProject\\src\\SaleProject.Application\\Contracts",
+    "\\SaleProject\\src\\SaleProject.Application\\Contracts\\Checkings",
+    "\\SaleProject\\src\\SaleProject.Application\\Contracts\\Checkings\\Queries",
+    "\\SaleProject\\src\\SaleProject.Application\\Contracts\\TakeAParts",
+    "\\SaleProject\\src\\SaleProject.Application\\Contracts\\TakeAParts\\Arrays",
+    "\\SaleProject\\src\\SaleProject.Application\\Contracts\\TakeAParts\\Queries",
+    "\\SaleProject\\src\\SaleProject.Domain"
   ],
+  "SelectedNode": "\\SaleProject\\src\\SaleProject.WebAPI\\Controllers\\Sales2Controller.cs",
   "PreviewInSolutionExplorer": false
 }

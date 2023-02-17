@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kunla\\Source\\Repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.WebAPI\\SaleProject.WebAPI.csproj": {}
+    "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.WebAPI\\SaleProject.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kunla\\Source\\Repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Application\\SaleProject.Application.csproj": {
+    "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Application\\SaleProject.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kunla\\Source\\Repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Application\\SaleProject.Application.csproj",
+        "projectUniqueName": "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Application\\SaleProject.Application.csproj",
         "projectName": "SaleProject.Application",
-        "projectPath": "C:\\Users\\kunla\\Source\\Repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Application\\SaleProject.Application.csproj",
+        "projectPath": "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Application\\SaleProject.Application.csproj",
         "packagesPath": "C:\\Users\\kunla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kunla\\Source\\Repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Application\\obj\\",
+        "outputPath": "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kunla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\kunla\\Source\\Repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Infrastructure\\SaleProject.Infrastructure.csproj": {
+    "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Infrastructure\\SaleProject.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kunla\\Source\\Repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Infrastructure\\SaleProject.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Infrastructure\\SaleProject.Infrastructure.csproj",
         "projectName": "SaleProject.Infrastructure",
-        "projectPath": "C:\\Users\\kunla\\Source\\Repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Infrastructure\\SaleProject.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Infrastructure\\SaleProject.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\kunla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kunla\\Source\\Repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kunla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -146,14 +146,14 @@
         }
       }
     },
-    "C:\\Users\\kunla\\Source\\Repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.WebAPI\\SaleProject.WebAPI.csproj": {
+    "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.WebAPI\\SaleProject.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kunla\\Source\\Repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.WebAPI\\SaleProject.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.WebAPI\\SaleProject.WebAPI.csproj",
         "projectName": "SaleProject.WebAPI",
-        "projectPath": "C:\\Users\\kunla\\Source\\Repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.WebAPI\\SaleProject.WebAPI.csproj",
+        "projectPath": "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.WebAPI\\SaleProject.WebAPI.csproj",
         "packagesPath": "C:\\Users\\kunla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kunla\\Source\\Repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kunla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -170,11 +170,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\kunla\\Source\\Repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Application\\SaleProject.Application.csproj": {
-                "projectPath": "C:\\Users\\kunla\\Source\\Repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Application\\SaleProject.Application.csproj"
+              "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Application\\SaleProject.Application.csproj": {
+                "projectPath": "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Application\\SaleProject.Application.csproj"
               },
-              "C:\\Users\\kunla\\Source\\Repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Infrastructure\\SaleProject.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\kunla\\Source\\Repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Infrastructure\\SaleProject.Infrastructure.csproj"
+              "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Infrastructure\\SaleProject.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Infrastructure\\SaleProject.Infrastructure.csproj"
               }
             }
           }

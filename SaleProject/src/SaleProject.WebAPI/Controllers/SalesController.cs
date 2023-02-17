@@ -1,24 +1,16 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MediatR;
 using SaleProject.Application.Contracts.Checkings.Queries;
+using SaleProject.Application.Contracts.Greetings.Queries;
 
 namespace SaleProject.WebAPI.Controllers
 {
-    [ApiController]
-    [Route("[controller]")]
-    public class SalesController : ControllerBase
+    [ApiController, Route("[controller]")]
+    public class SalesController : APIControllerBase
     {
-        private readonly IMediator _mediator;
-
-        public SalesController(IMediator mediator)
-        {
-            _mediator = mediator;
-        }
-
         [HttpGet("checking")]
-        public async Task<CheckingQueryResponse> Get()
-        {
-            return await _mediator.Send(new CheckingQueryRequest());
-        }
+        public async Task<CheckingQueryResponse> Check() => await Mediator.Send(new CheckingQueryRequest());
+
+        [HttpGet("greeting")]
+        public async Task<GreetingQueryResponse> Hello([FromQuery] GreetingQueryRequest request) => await Mediator.Send(request);
     }
 }

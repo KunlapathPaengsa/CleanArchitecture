@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c1c9BDhTz7+YAw3aJvgVlwQpLNN364Zvp0/idvcedDvApFsuwDDsoXzeO9ErZmrbaoGRjpknKPRiB1TTXxScXw==",
+  "dgSpecHash": "wmBQq78WeEa4MBY1LooNHlzunOKO+z8koFIiMYD74LkvF7mMW0tvrGSYt0acJFdfwy2NfjiF2H5AP6aTitcxtg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kunla\\Source\\Repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Application\\SaleProject.Application.csproj",
+  "projectFilePath": "C:\\Users\\kunla\\source\\repos\\KunlapathPaengsa\\CleanArchitecture\\SaleProject\\src\\SaleProject.Application\\SaleProject.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kunla\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\kunla\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

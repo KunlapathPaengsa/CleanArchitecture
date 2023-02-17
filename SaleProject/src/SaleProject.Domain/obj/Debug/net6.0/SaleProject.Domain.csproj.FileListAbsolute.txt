@@ -10,3 +10,15 @@ C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.Domain\obj
 C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.Domain\obj\Debug\net6.0\refint\SaleProject.Domain.dll
 C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.Domain\obj\Debug\net6.0\SaleProject.Domain.pdb
 C:\Users\kunla\Documents\Code\SaleProject\SaleProject\src\SaleProject.Domain\obj\Debug\net6.0\ref\SaleProject.Domain.dll
+C:\Users\kunla\Source\Repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.Domain\bin\Debug\net6.0\SaleProject.Domain.deps.json
+C:\Users\kunla\Source\Repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.Domain\bin\Debug\net6.0\SaleProject.Domain.dll
+C:\Users\kunla\Source\Repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.Domain\bin\Debug\net6.0\SaleProject.Domain.pdb
+C:\Users\kunla\Source\Repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.Domain\obj\Debug\net6.0\SaleProject.Domain.csproj.AssemblyReference.cache
+C:\Users\kunla\Source\Repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.Domain\obj\Debug\net6.0\SaleProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kunla\Source\Repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.Domain\obj\Debug\net6.0\SaleProject.Domain.AssemblyInfoInputs.cache
+C:\Users\kunla\Source\Repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.Domain\obj\Debug\net6.0\SaleProject.Domain.AssemblyInfo.cs
+C:\Users\kunla\Source\Repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.Domain\obj\Debug\net6.0\SaleProject.Domain.csproj.CoreCompileInputs.cache
+C:\Users\kunla\Source\Repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.Domain\obj\Debug\net6.0\SaleProject.Domain.dll
+C:\Users\kunla\Source\Repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.Domain\obj\Debug\net6.0\refint\SaleProject.Domain.dll
+C:\Users\kunla\Source\Repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.Domain\obj\Debug\net6.0\SaleProject.Domain.pdb
+C:\Users\kunla\Source\Repos\KunlapathPaengsa\CleanArchitecture\SaleProject\src\SaleProject.Domain\obj\Debug\net6.0\ref\SaleProject.Domain.dll

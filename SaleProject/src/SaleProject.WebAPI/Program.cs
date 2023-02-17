@@ -1,5 +1,6 @@
 using Microsoft.Extensions.Configuration;
 using SaleProject.Application;
+using SaleProject.Application.Contracts.Greetings;
 using SaleProject.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
