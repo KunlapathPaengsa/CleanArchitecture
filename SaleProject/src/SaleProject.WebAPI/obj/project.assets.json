@@ -1306,6 +1306,7 @@
         "dependencies": {
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "Microsoft.AspNet.Mvc": "5.2.9",
+          "Microsoft.EntityFrameworkCore": "7.0.3",
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "SaleProject.Domain": "1.0.0",

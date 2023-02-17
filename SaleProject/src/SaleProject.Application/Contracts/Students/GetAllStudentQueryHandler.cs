@@ -1,13 +1,22 @@
 ﻿using MediatR;
+using SaleProject.Application.Interfaces.Students;
 using SaleProject.Infrastructure.Contexts;
 
 namespace SaleProject.Application.Contracts.Students
 {
     public class GetAllStudentQueryHandler : IRequestHandler<GetAllStudentQueryRequest, List<Student>>
     {
-        public Task<List<Student>> Handle(GetAllStudentQueryRequest request, CancellationToken cancellationToken)
+        private readonly IStudentQueryRepository _repository;
+
+        public GetAllStudentQueryHandler(IStudentQueryRepository repository)
         {
-            return Task.FromResult(new List<Student>());
+            _repository = repository;
+        }
+
+        public async Task<List<Student>> Handle(GetAllStudentQueryRequest request, CancellationToken cancellationToken)
+        {
+            var students = await _repository.GetAllAsync();
+            return students.ToList();
         }
     }
 
