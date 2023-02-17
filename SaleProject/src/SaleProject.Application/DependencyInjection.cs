@@ -3,6 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using SaleProject.Application.Contracts.Checkings.Queries;
 using SaleProject.Application.Contracts.Greetings;
 using SaleProject.Application.Interfaces;
+using System.ComponentModel;
 using System.Reflection;
 
 namespace SaleProject.Application
@@ -19,7 +20,7 @@ namespace SaleProject.Application
             //Add Services
             //services.AddScoped<IGreetingQueryService, GreetingQueryService>();
             //services.AddScoped<IGreetingQueryService, GreetingQueryService>();
-
+            services.AddScoped<IQueryProcessor, DynamicQueryProcessor>(); //AddSingleton
             return services;
         }
     }

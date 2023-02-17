@@ -12,4 +12,8 @@ namespace SaleProject.WebAPI.Controllers
         [HttpGet("array")]
         public async Task<string[]> GetCarEnum([FromQuery] TakeArrayPartQueryRequest request) => await Mediator.Send(request);
     }
+     public class Sales3Controller : APIControllerBase
+    {
+
+    }
 }
