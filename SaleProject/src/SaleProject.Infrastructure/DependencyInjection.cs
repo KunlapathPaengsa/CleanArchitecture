@@ -12,12 +12,13 @@ namespace SaleProject.Infrastructure
         {
             //services.AddTransient<IRequestHandler<CheckingQueryRequest, CheckingQueryResponse>, CheckingQueryHandler>();
             var connectionString = configuration.GetConnectionString("LocalDBConnection");
-            services.AddDbContext<LocalDbContext>(option => option.UseSqlServer(connectionString));
+            //services.AddDbContext<LocalDbContext>(option => option.UseSqlServer(connectionString));
+            services.AddDbContext<DbContext>(option => option.UseSqlServer(connectionString));
 
             //Add DbContext
             //services.AddMvc();
             //services.AddScoped<IDbContext, LocalDbContext>();
-            services.AddScoped<IDbContext>(provider => provider.GetService<LocalDbContext>());
+            services.AddScoped<ILocalDbContext>(provider => provider.GetService<LocalDbContext>());
             services.AddScoped(typeof(IQueryRepository<>), typeof(QueryRepository<>));
 
 
